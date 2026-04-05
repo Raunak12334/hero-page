@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Play, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import DashboardPreview from "./DashboardPreview";
 
 const fadeUp = (delay: number, y: number = 16, duration: number = 0.6) => ({
   initial: { opacity: 0, y },
@@ -61,10 +60,6 @@ const HeroSection = () => {
           </Button>
         </motion.div>
 
-        {/* Dashboard Preview */}
-        <motion.div {...fadeUp(0.5, 30, 0.8)} className="mt-8 w-full flex justify-center">
-          <DashboardPreview />
-        </motion.div>
       </div>
     </section>
   );
