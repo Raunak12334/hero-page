@@ -14,6 +14,7 @@ const Navbar = () => {
             {item}
           </a>
         ))}
+        <Button variant="ghost" className="text-sm font-medium text-muted-foreground hover:text-foreground">Log in</Button>
         <Button className="rounded-full px-5 text-sm font-medium">Get Started</Button>
       </div>
     </nav>

@@ -48,7 +48,7 @@ const HeroSection = () => {
         {/* CTA Buttons */}
         <motion.div {...fadeUp(0.3, 16, 0.6)} className="mt-5 flex items-center gap-3">
           <Button className="rounded-full px-6 py-5 text-sm font-medium font-body">
-            Book a demo
+            Start Building Now
           </Button>
           <Button
             variant="ghost"
